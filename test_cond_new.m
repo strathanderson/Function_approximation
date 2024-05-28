@@ -2,8 +2,8 @@ clear all, close all, clc
 
 n = 8;
 R = 8;
-b = R*rand(2*n,1);
-w = R*rand(2*n,1);
+b = R*rand(n,1);
+w = R*rand(n,1);
 %w = ones(n,1);
 %b = -linspace(0,1,n);
 L = pi;
